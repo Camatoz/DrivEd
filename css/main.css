@@ -1,118 +1,247 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Manrope", Arial, sans-serif;
-    font-size: 16px;
-    max-width: 1920px;
-    margin: 0 auto;
+  font-family: "Manrope", Arial, sans-serif;
+  font-size: 16px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* Body  Information */
 
 /* Header Navigation */
 .head-nav a {
-    color: #000000;
-    font-size: 14px;
+  color: #000000;
+  font-size: 14px;
 }
 
-.head-nav>.head-logo {
-    cursor: default;
-    font-family: "Samsung Sharp Sans", sans-serif;
-    font-size: 32px;
-    font-weight: 700;
+.head-nav > .head-logo {
+  cursor: default;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .head-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 20px;
 }
 
 nav {
-    max-width: 800px;
+  max-width: 800px;
 }
 
-nav>ul {
-    display: flex;
-    justify-content: space-between;
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-li-text {
-    margin-right: 70px;
+  margin-right: 70px;
 }
 
 .nav-select-style {
-    background: transparent;
-    width: 68px;
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    height: 34px;
-    border-radius: 32px;
+  background: #e5e5e5;
+  width: 68px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #e5e5e5;
+  height: 34px;
+  border-radius: 32px;
+}
+
+select {
+  border: none;
+  background: #e5e5e5;
 }
 
 /* HEAD CONTENT */
 .cont-left-side {
-    padding-right: 20px;
-    max-width: 780px;
-    width: 50%;
+  padding-right: 20px;
+  max-width: 780px;
+  width: 50%;
 }
 
 h1 {
-    font-size: 60px;
-    line-height: 1.1;
-    font-weight: bold;
+  font-size: 60px;
+  line-height: 1.1;
+  font-weight: bold;
 }
 
 .head-text {
-    font-size: 18px;
-    line-height: 2;
-    padding: 80px 0;
+  font-size: 18px;
+  line-height: 2;
+  padding: 80px 0;
 }
 
 .head-content {
-    padding: 40px 20px;
-    display: flex;
+  padding: 40px 20px 70px 20px;
+  display: flex;
 }
 
 .cont-pic {
-    display: block;
-    background: url(../img/Asset.png) no-repeat center / contain;
-    width: 860px;
-    height: 899px;
+  display: block;
+  background: url(../img/Asset.png) no-repeat center / contain;
+  width: 860px;
+  height: 899px;
 }
 
 /* Head Form */
 .head-email {
-    width: 326px;
-    color: #707070;
-    padding: 20px;
-    border: 2px solid #707070;
-    border-radius: 8px;
-    font-size: 16px;
-    margin-right: 20px;
+  width: 326px;
+  color: #707070;
+  padding: 20px;
+  border: 2px solid #707070;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-right: 20px;
 }
 
 .head-button {
-    color: #FFFFFF;
-    background-color: #462BE2;
-    padding: 22px;
-    border: none;
-    border-radius: 8px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    width: 280px;
+  color: #ffffff;
+  background-color: #462be2;
+  padding: 22px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  width: 280px;
 }
+
+/* Section Description */
+.description {
+  position: relative;
+  background: #23d87d;
+  height: 660px;
+  display: flex;
+  justify-content: center;
+}
+.descr-text {
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: bold;
+  text-align: center;
+  width: 999px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.desc-pic {
+  position: absolute;
+  top: 14%;
+  left: 11%;
+  display: block;
+  background: url(../img/Group-13.png) no-repeat center / contain;
+  width: 1057px;
+  height: 583px;
+}
+
+/* Section For-Whom */
+.for-whom {
+  padding: 50px 0;
+}
+
+.for-whom-content-all {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 64px;
+  margin: 40px 0;
+}
+
+.for-whom-text {
+  line-height: 32px;
+}
+
+.for-whom-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.for-whom-content {
+  width: 30%;
+}
+.for-whom-pic1 {
+  display: block;
+  background: url(../img/School.png) no-repeat center / contain;
+  width: 371px;
+  height: 275px;
+}
+
+.for-whom-pic2 {
+  display: block;
+  background: url(../img/individual.png) no-repeat center / contain;
+  width: 368px;
+  height: 257px;
+  margin-top: 17px;
+}
+
+.for-whom-pic3 {
+  display: block;
+  background: url(../img/bussiness.png) no-repeat center / contain;
+  width: 370px;
+  height: 258px;
+  margin-top: 17px;
+}
+
+/* Section Function */
+.function {
+  background: #252f5a;
+  color: #ffffff;
+}
+
+.function-title {
+  text-align: center;
+  padding-top: 135px;
+  padding-bottom: 55px;
+}
+
+.function-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.function-section-text-position {
+    display: flex;
+    justify-content: center;
+}
+
+.function-section-text  {
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: bold;
+    max-width: 1033px;
+    text-align: center;
+}
+
+.function-head-title {
+    border-bottom: 1px dashed #FF8A33;
+    /* max-width: 1160px; */
+}
+

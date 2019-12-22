@@ -26,7 +26,7 @@ ul {
   font-size: 14px;
 }
 
-.head-nav > .head-logo {
+.head-nav>.head-logo {
   cursor: default;
   font-family: "Samsung Sharp Sans", sans-serif;
   font-size: 32px;
@@ -44,7 +44,7 @@ nav {
   max-width: 800px;
 }
 
-nav > ul {
+nav>ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,6 +131,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
 .descr-text {
   font-size: 24px;
   line-height: 48px;
@@ -186,6 +187,7 @@ h2 {
 .for-whom-content {
   width: 30%;
 }
+
 .for-whom-pic1 {
   display: block;
   background: url(../img/School.png) no-repeat center / contain;
@@ -517,7 +519,7 @@ h3 {
   height: 81px;
 }
 
-.benefit-content-pic7-7{
+.benefit-content-pic7-7 {
   position: absolute;
   z-index: 1;
   top: 14%;
@@ -542,4 +544,229 @@ h3 {
 .benefits-second-line {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* Section MOB-APP */
+.mob-app {
+  background: #FFE07D;
+  color: #000000;
+}
+
+.mob-app-content {
+  max-width: 524px;
+  margin-top: 90px;
+  margin-right: 101px;
+}
+
+.mob-app-pic {
+  display: block;
+  background: url(../img/phone.png) no-repeat center / contain;
+  width: 486px;
+  height: 323px;
+  margin: 44px 0 33px 0;
+}
+
+.mob-app-all {
+  display: flex;
+}
+
+.mob-app-text {
+  margin-top: 48px;
+  line-height: 32px;
+}
+
+/* Section Partners */
+.partners-container>h2 {
+  margin-top: 119px;
+}
+
+.partner1 {
+  display: block;
+  background: url(../img/dark-logo-for-site.png) no-repeat center / contain;
+  width: 267px;
+  height: 95px;
+}
+
+.partner2 {
+  display: block;
+  background: url(../img/Git-Logo-Black.png) no-repeat center / contain;
+  width: 199px;
+  height: 83px;
+}
+
+.partner3 {
+  display: block;
+  background: url(../img/placeholder.png) no-repeat center / contain;
+  width: 261px;
+  height: 54px;
+}
+
+.partner4 {
+  display: block;
+  background: url(../img/Jeep.png) no-repeat center / contain;
+  width: 231px;
+  height: 130px;
+}
+
+.our-partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 84px 20px 245px 0;
+}
+
+.form-title > h2 {
+  margin-bottom: 63px;
+}
+
+/* Section Form-On-Demo */
+.form-foot {
+  margin: 0 auto;
+  max-width: 560px;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 16px;
+  background: #23D87D;
+  color: #FFFFFF;
+}
+
+.textbox {
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  border: #ffffff 2px solid;
+  box-sizing: border-box;
+  font-size: 24px;
+  color: #FFFFFF;
+  background: #23D87D;
+  font-weight: bold;
+  padding: 16px 0 16px 29px;
+  margin-bottom: 30px;
+}
+
+.message:focus,
+.textbox:focus {
+  outline: none;
+  border: rgba(24, 149, 215, 1) 2px solid;
+  color: rgba(24, 149, 215, 1);
+}
+
+.message {
+  background: #23D87D;
+  width: 100%;
+  height: 240px;
+  border: #ffffff 2px solid;
+  box-sizing: border-box;
+  -moz-border-radius: 3px;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  border-radius: 8px;
+  display: block;
+  padding: 16px 0 16px 29px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.button {
+  height: 60px;
+  width: 100%;
+  border-radius: 8px;
+  border: #462BE2 0px solid;
+  box-sizing: border-box;
+  padding: 20px ;
+  background: #462BE2;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background .4s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Section-Form-Picture */
+.form-on-demo {
+  position: relative;
+}
+
+.form-pic1 {
+  position: absolute;
+  z-index: 1;
+  top: 26%;
+  left: 1%;
+  display: block;
+  background: url(../img/Group77.png) no-repeat center / contain;
+  width: 1096px;
+  height: 930px;
+}
+
+.form-pic2 {
+  position: absolute;
+  z-index: 2;
+  top: 102%;
+  left: 20%;
+  display: block;
+  background: url(../img/Group76.png) no-repeat center / contain;
+  width: 905px;
+  height: 488px;
+}
+
+.form-pic3 {
+  position: absolute;
+  z-index: 1;
+  top: 94%;
+  left: 52.5%;
+  display: block;
+  background: url(../img/man.png) no-repeat center / contain;
+  width: 560px;
+  height: 502px;
+}
+
+.form-pic4 {
+  position: absolute;
+  z-index: 1;
+  top: 87%;
+  left: 0;
+  display: block;
+  background: url(../img/Girl.png) no-repeat center / contain;
+  width: 399px;
+  height: 552px;
+}
+
+/* FOOTER */
+.foot {
+  margin-top: 575px;
+  border-top: 1px dashed #000000;
+}
+
+.boof-side {
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+}
+
+.right-side {
+  display: flex;
+}
+
+.foot-phone {
+  margin-right: 70px;
+  color: #000000;
+}
+
+.foot-email {
+  margin-right: 73px;
+}
+
+.foot-tel {
+  color: #359FDD;
+}
+
+.foot a:hover {
+  text-decoration: underline;
 }

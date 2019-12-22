@@ -12,11 +12,11 @@
         <a class="head-logo" href="#">DrivEd</a>
         <nav>
           <ul>
-            <li><a class="nav-li-text" href="#">Для кого</a></li>
-            <li><a class="nav-li-text" href="#">Функции</a></li>
-            <li><a class="nav-li-text" href="#">Преимущества</a></li>
-            <li><a class="nav-li-text" href="#">Заявка на Демо</a></li>
-            <li><a class="nav-li-text" href="#">Контакты</a></li>
+            <li><a class="nav-li-text" href="#for-whom">Для кого</a></li>
+            <li><a class="nav-li-text" href="#function">Функции</a></li>
+            <li><a class="nav-li-text" href="#benefits">Преимущества</a></li>
+            <li><a class="nav-li-text" href="#form-on-demo">Заявка на Демо</a></li>
+            <li><a class="nav-li-text" href="#contacts">Контакты</a></li>
             <li>
               <div class="nav-select-style">
                 <select class="nav-lang" name="lang[]">
@@ -72,7 +72,7 @@
       </div>
     </section>
 
-    <section class="for-whom">
+    <section id="for-whom" class="for-whom">
       <h2>Для кого</h2>
       <div class="for-whom-content-all">
         <div class="for-whom-content">
@@ -141,7 +141,7 @@
             </p>
           </div>
         </div>
-        <div class="content-all">
+        <div id="function" class="content-all">
           <div class="function-content">
             <div class="function-content-text">
               <h3>Личный кабинет студента</h3>
@@ -191,11 +191,11 @@
             </div>
             <div class="function-content-pic3"></div>
           </div>
-        </div>
+        </div id="special">
       </div>
     </section>
 
-    <section class="benefits">
+    <section id="benefits" class="benefits">
       <div class="container">
         <div class="benefits-container">
           <h2>Преимущества</h2>
@@ -250,8 +250,61 @@
       </div>
     </section>
 
-    section
+    <section class="mob-app">
+      <div class="container">
+        <div class="mob-app-all">
+          <div class="mob-app-content">
+            <h3>Мобильные приложения</h3>
+            <p class="mob-app-text">В данный момент ведется разработка мобильных приложений под
+              iOS и Android платформ и уже в скором времени данные приложения
+              будут доступны для скачивания</p>
+          </div>
+          <div class="mob-app-pic"></div>
+      </div>
+      </div>
+    </section>
 
-    <h1>111Для кого</h1>
+    <section class="partners container">
+      <div class="partners-container">
+        <h2>Наши партнеры</h2>
+        <div class="our-partners">
+          <div class="partner1"></div>
+          <div class="partner2"></div>
+          <div class="partner3"></div>
+          <div class="partner4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="form-on-demo" class="form-on-demo container">
+      <div class="form-title">
+        <h2>Заявка на демо</h2>
+      </div>
+      <div class="form-position">
+        <form class="form-foot" method="post" action="input1.php">
+          <input name="name" placeholder="Ваше имя!" class="textbox" required />
+          <input name="emailaddress" placeholder="Введите ваш email" class="textbox" type="email" required />
+          <textarea rows="4" cols="50" name="subject" placeholder="Что бы вы хотели обсудить?" class="message" required></textarea>
+          <input name="submit" class="button" type="submit" value="Отправить заявку" />
+       </form>
+      </div>
+      <div class="form-pic1"></div>
+      <div class="form-pic2"></div>
+      <div class="form-pic3"></div>
+      <div class="form-pic4"></div>
+    </section>
+
+    <footer id="contacts" class="foot container">
+      <div class="boof-side">
+        <div class="left-side">
+          <p>© 2019.  DrivEd by <a  href="#">PioGroup</a></p>
+        </div>
+        <div class="right-side">
+          <a class="foot-phone" href="#">+38 063 694 50 10</a>
+          <a class="foot-email" href="#">ask@drivedcrm.com</a>
+          <a class="foot-tel" href="#">telegram</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

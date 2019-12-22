@@ -210,9 +210,15 @@ h2 {
 }
 
 /* Section Function */
+.container {
+  max-width: 1163px;
+  margin: 0 auto;
+}
+
 .function {
   background: #252f5a;
   color: #ffffff;
+  padding-bottom: 1px;
 }
 
 .function-title {
@@ -225,23 +231,315 @@ h2 {
   text-align: center;
   font-size: 18px;
   line-height: 32px;
+  margin-bottom: 120px;
 }
 
 .function-section-text-position {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.function-section-text  {
-    font-size: 24px;
-    line-height: 48px;
-    font-weight: bold;
-    max-width: 1033px;
-    text-align: center;
+.function-dots {
+  display: flex;
+  justify-content: center;
+  width: 1160px;
+  border-top: 1px dashed #ff8a33;
+  border-bottom: 1px dashed #ff8a33;
 }
 
-.function-head-title {
-    border-bottom: 1px dashed #FF8A33;
-    /* max-width: 1160px; */
+.function-section-text {
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: bold;
+  max-width: 1033px;
+  text-align: center;
+  margin: 120px 0;
 }
 
+/* Function Content */
+.content-all {
+  position: relative;
+  margin-top: 10px;
+}
+
+.function-content {
+  min-height: 461px;
+  margin: 90px 0 180px 0;
+}
+
+.function-content-pic {
+  position: absolute;
+  top: 0;
+  right: -20.5%;
+  display: block;
+  background: url(../img/Group-80.png) no-repeat center / contain;
+  width: 1042px;
+  height: 461px;
+}
+
+.function-content-pic2 {
+  position: absolute;
+  top: 38%;
+  left: -20.5%;
+  display: block;
+  background: url(../img/Group-81.png) no-repeat center / contain;
+  width: 1042px;
+  height: 461px;
+}
+
+.function-content-pic3 {
+  position: absolute;
+  top: 73.5%;
+  right: -20.5%;
+  display: block;
+  background: url(../img/Group-82.png) no-repeat center / contain;
+  width: 1042px;
+  height: 461px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  margin: 20px 0 30px 0;
+}
+
+.function-content-text li {
+  font-size: 18;
+  line-height: 24px;
+  margin: 15px 0;
+}
+
+.function-content-text {
+  max-width: 410px;
+  min-height: 461px;
+}
+
+.function-content-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.function-content:last-child {
+  margin: 90px 0 120px 0;
+}
+
+/* Section Benefits */
+.benefits {
+  background: #23D87D;
+  color: #ffffff;
+}
+
+.benefits-container {
+  padding: 100px 0;
+}
+
+.benefits-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  width: 21%;
+  height: 217px;
+}
+
+.benefit-content-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.benefits-first-line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 124px;
+}
+
+.benefit-content-pic1 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  margin-left: -50px;
+  display: block;
+  background: url(../img/Group42.png) no-repeat center / contain;
+  width: 99px;
+  height: 103px;
+}
+
+.benefit-content-pic1-1 {
+  position: absolute;
+  z-index: 1;
+  top: 9%;
+  left: 50%;
+  margin-left: -30px;
+  display: block;
+  background: url(../img/Group-86.png) no-repeat center / contain;
+  width: 54px;
+  height: 77px;
+}
+
+.benefit-content-pic2 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  margin-left: -27px;
+  display: block;
+  background: url(../img/Group-35.png) no-repeat center / contain;
+  width: 74px;
+  height: 99px;
+}
+
+.benefit-content-pic2-2 {
+  position: absolute;
+  z-index: 1;
+  top: 9%;
+  left: 50%;
+  margin-left: -42px;
+  display: block;
+  background: url(../img/Group82.png) no-repeat center / contain;
+  width: 72px;
+  height: 72px;
+}
+
+.benefit-content-pic3 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  margin-left: -45px;
+  display: block;
+  background: url(../img/Group47.png) no-repeat center / contain;
+  width: 91px;
+  height: 88px;
+}
+
+.benefit-content-pic3-3 {
+  position: absolute;
+  z-index: 1;
+  top: 9%;
+  left: 50%;
+  margin-left: -42px;
+  display: block;
+  background: url(../img/Group103.png) no-repeat center / contain;
+  width: 72px;
+  height: 54px;
+}
+
+.benefit-content-pic4 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  margin-left: -50px;
+  display: block;
+  background: url(../img/Group42.png) no-repeat center / contain;
+  width: 99px;
+  height: 103px;
+}
+
+.benefit-content-pic4-4 {
+  position: absolute;
+  z-index: 1;
+  top: 11%;
+  left: 50%;
+  margin-left: -36px;
+  display: block;
+  background: url(../img/Group112.png) no-repeat center / contain;
+  width: 72px;
+  height: 54px;
+}
+
+.benefit-content-text-big {
+  margin-bottom: 3px;
+}
+
+.benefit-content-pic5 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  margin-left: -68px;
+  display: block;
+  background: url(../img/Group45.png) no-repeat center / contain;
+  width: 99px;
+  height: 72px;
+}
+
+.benefit-content-pic5-5 {
+  position: absolute;
+  z-index: 1;
+  top: 8%;
+  left: 50%;
+  margin-left: -34px;
+  display: block;
+  background: url(../img/Group113.png) no-repeat center / contain;
+  width: 72px;
+  height: 43px;
+}
+
+.benefit-content-pic6 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  margin-left: -40px;
+  display: block;
+  background: url(../img/Group44.png) no-repeat center / contain;
+  width: 87px;
+  height: 82px;
+}
+
+.benefit-content-pic6-6 {
+  position: absolute;
+  z-index: 1;
+  top: 14%;
+  left: 50%;
+  margin-left: -34px;
+  display: block;
+  background: url(../img/Group104.png) no-repeat center / contain;
+  width: 72px;
+  height: 54px;
+}
+
+.benefit-content-pic7 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  margin-left: -56px;
+  display: block;
+  background: url(../img/Group41.png) no-repeat center / contain;
+  width: 84px;
+  height: 81px;
+}
+
+.benefit-content-pic7-7{
+  position: absolute;
+  z-index: 1;
+  top: 14%;
+  left: 50%;
+  margin-left: -34px;
+  display: block;
+  background: url(../img/Group91.png) no-repeat center / contain;
+  width: 72px;
+  height: 54px;
+}
+
+.benefits-content-second-line {
+  margin-top: 96px;
+  margin-bottom: 20px;
+  height: 139px;
+}
+
+.benefit-content-text-second {
+  margin-bottom: 0;
+}
+
+.benefits-second-line {
+  display: flex;
+  justify-content: space-evenly;
+}

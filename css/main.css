@@ -26,7 +26,7 @@ ul {
   font-size: 14px;
 }
 
-.head-nav>.head-logo {
+.head-nav > .head-logo {
   cursor: default;
   font-family: "Samsung Sharp Sans", sans-serif;
   font-size: 32px;
@@ -44,7 +44,7 @@ nav {
   max-width: 800px;
 }
 
-nav>ul {
+nav > ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,16 +57,19 @@ nav>ul {
 .nav-select-style {
   background: #e5e5e5;
   width: 68px;
-  padding: 5px;
+  padding: 0 10px;
   font-size: 16px;
   border: 1px solid #e5e5e5;
-  height: 34px;
+  height: 32px;
   border-radius: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 select {
   border: none;
   background: #e5e5e5;
+  font-size: 14px;
 }
 
 /* HEAD CONTENT */
@@ -121,6 +124,11 @@ h1 {
   font-weight: bold;
   font-size: 14px;
   width: 280px;
+}
+
+.form-position {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* Section Description */
@@ -267,7 +275,15 @@ h2 {
 .function-content {
   min-height: 461px;
   margin: 90px 0 180px 0;
+                                    display: flex;
+                                  justify-content: space-between;
 }
+
+                                  .function-content-pic-boss {
+                                    width: 100%; /* Ширина области */
+                                  height: 461px; /* Высота области */
+                                  margin: 0;
+                                  }
 
 .function-content-pic {
   position: absolute;
@@ -328,7 +344,7 @@ h3 {
 
 /* Section Benefits */
 .benefits {
-  background: #23D87D;
+  background: #23d87d;
   color: #ffffff;
 }
 
@@ -548,7 +564,7 @@ h3 {
 
 /* Section MOB-APP */
 .mob-app {
-  background: #FFE07D;
+  background: #ffe07d;
   color: #000000;
 }
 
@@ -576,7 +592,7 @@ h3 {
 }
 
 /* Section Partners */
-.partners-container>h2 {
+.partners-container > h2 {
   margin-top: 119px;
 }
 
@@ -626,8 +642,8 @@ h3 {
   box-sizing: border-box;
   padding: 40px;
   border-radius: 16px;
-  background: #23D87D;
-  color: #FFFFFF;
+  background: #23d87d;
+  color: #ffffff;
 }
 
 .textbox {
@@ -637,8 +653,8 @@ h3 {
   border: #ffffff 2px solid;
   box-sizing: border-box;
   font-size: 24px;
-  color: #FFFFFF;
-  background: #23D87D;
+  color: #ffffff;
+  background: #23d87d;
   font-weight: bold;
   padding: 16px 0 16px 29px;
   margin-bottom: 30px;
@@ -652,14 +668,14 @@ h3 {
 }
 
 .message {
-  background: #23D87D;
+  background: #23d87d;
   width: 100%;
   height: 240px;
   border: #ffffff 2px solid;
   box-sizing: border-box;
   -moz-border-radius: 3px;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   -webkit-border-radius: 3px;
   border-radius: 8px;
@@ -673,14 +689,14 @@ h3 {
   height: 60px;
   width: 100%;
   border-radius: 8px;
-  border: #462BE2 0px solid;
+  border: #462be2 0px solid;
   box-sizing: border-box;
-  padding: 20px ;
-  background: #462BE2;
-  color: #FFFFFF;
+  padding: 20px;
+  background: #462be2;
+  color: #ffffff;
   font-weight: bold;
   font-size: 14px;
-  transition: background .4s;
+  transition: background 0.4s;
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -764,7 +780,7 @@ h3 {
 }
 
 .foot-tel {
-  color: #359FDD;
+  color: #359fdd;
 }
 
 .foot a:hover {

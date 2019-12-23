@@ -84,4 +84,12 @@
         font-size: 12px;
         padding: 16px;
     }
+
+    header nav {
+        display: none;
+    }
+
+    .head-nav-button {
+        display: block;
+    }
 }

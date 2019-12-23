@@ -11,6 +11,8 @@
     <header>
       <div class="head-nav">
         <a class="head-logo" href="#">DrivEd</a>
+
+        <a class="head-nav-button" href="#"></a>
         <nav>
           <ul>
             <li><a class="nav-li-text" href="#for-whom">Для кого</a></li>
@@ -20,11 +22,12 @@
             <li><a class="nav-li-text" href="#contacts">Контакты</a></li>
             <li>
               <div class="nav-select-style">
-                <select class="nav-lang" name="lang[]">
-                  <option value="Английский">Eng</option>
-                  <option value="Русский" selected>Рус</option>
-                  <option value="Украинский">Укр</option>
-                </select>
+                <a class="nav-langs-button" href="#">Рус</a>
+                <div class="nav-langs-list">
+                  <a class="nav-langs-item" href="#">Eng</a>
+                  <a class="nav-langs-item" href="#">Рус</a>
+                  <a class="nav-langs-item" href="#">Укр</a>
+                </div>
               </div>
             </li>
           </ul>
@@ -307,11 +310,13 @@
           <p>© 2019.  DrivEd by <a  href="#">PioGroup</a></p>
         </div>
         <div class="right-side">
-          <a class="foot-phone" href="#">+38 063 694 50 10</a>
-          <a class="foot-email" href="#">ask@drivedcrm.com</a>
+          <a class="foot-phone" href="tel:+380636945010">+38 063 694 50 10</a>
+          <a class="foot-email" href="mailto:ask@drivedcrm.com">ask@drivedcrm.com</a>
           <a class="foot-tel" href="#">telegram</a>
         </div>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="js/main.js"></script>
   </body>
 </html>

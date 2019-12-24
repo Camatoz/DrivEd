@@ -38,15 +38,16 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 50px 20px;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
-  width: 100%;
+  width: 97%;
   background: #fff;
+  z-index: 100;
 }
 
 nav {
-  max-width: 800px;
+  max-width: 885px;
 }
 
 nav>ul {
@@ -61,6 +62,7 @@ nav>ul {
   width: 40px;
   height: 40px;
   display: none;
+  margin-right: 70px;
 }
 
 .nav-li-text {
@@ -173,27 +175,27 @@ h1 {
 }
 
 .descr-text {
+  display: flex;
+  align-items: center;
   font-size: 24px;
   line-height: 48px;
   font-weight: bold;
   text-align: center;
   width: 999px;
   color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  z-index: 2;
 }
 
 .desc-pic {
   position: absolute;
-  top: 14%;
+  bottom: -31%;
   left: 11%;
   display: block;
   background: url(../img/Group-13.png) no-repeat center / contain;
   max-width: 1057px;
-  width: 100%;
-  /* height: 583px; */
-  padding-top: 40%;
+  width: 110%;
+  padding-top: 58.3%;
+  z-index: -1;
 }
 
 /* Section For-Whom */
@@ -361,13 +363,20 @@ h3 {
 .function-content-text li {
   font-size: 18;
   line-height: 24px;
-  margin: 15px 0;
+  margin: 15px 0 15px 28px;
 }
 
 .function-content-text li:before {
   content: "-";
   display: inline;
-  left: -28px;
+  left: 0;
+  position: absolute;
+}
+
+.function-content-text-right li:before {
+  content: "-";
+  display: inline;
+  left: 68%;
   position: absolute;
 }
 
@@ -668,8 +677,10 @@ h3 {
 }
 
 .our-partners {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  justify-items: center;
   align-items: center;
   margin: 84px 20px 245px 0;
 }

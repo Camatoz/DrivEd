@@ -1,5 +1,8 @@
 @media (max-width: 1600px) {
-    .function-content-pic, .function-content-pic2, .function-content-pic3 {
+
+    .function-content-pic,
+    .function-content-pic2,
+    .function-content-pic3 {
         max-width: 100%;
         height: 27%;
         object-fit: cover;
@@ -8,8 +11,16 @@
 
     .function-content-text {
         max-width: 410px;
-      }
+    }
 
+    .desc-pic {
+        bottom: 0;
+        left: 0;
+    }
+
+    .function-dots {
+        width: 90%;
+    }
 }
 
 @media (max-width: 1500px) {
@@ -52,23 +63,32 @@
     }
 }
 
-@media (max-width: 1200px) {
-    
-}
-
 @media (max-width: 1100px) {
     .descr-text {
         margin: 0 20px;
     }
+
+    .function-section-text {
+        margin: 50px 20px;
+        line-height: 1.5;
+    }
+
+    .our-partners {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin: 50px 20px 100px 20px;
+    }
+
+    .partners-container > h2 {
+        margin-top: 80px;
+    }
+
 }
 
 @media (max-width: 992px) {
     .head-content {
         flex-direction: column;
-    }
-
-    .cont-pic {
-        justify-content: center;
+        padding-bottom: 40px;
     }
 
     .cont-left-side {
@@ -78,6 +98,7 @@
 
     .cont-pic {
         width: 100%;
+        margin-top: 40px;
     }
 
     .head-form {
@@ -91,5 +112,72 @@
 
     .head-nav-button {
         display: block;
+    }
+
+    .function-title {
+        padding-top: 75px;
+        padding-bottom: 0;
+    }
+
+    .function-text {
+        margin: 0 20px 40px 20px;
+    }
+
+    .function-text br {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 38px;
+    }
+
+    .our-partners {
+        grid-template-columns: 1fr;
+        grid-gap: 5vw;
+        margin: 50px 20px 80px 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        line-height: 1.2;
+    }
+
+    .form-position {
+        flex-direction: column;
+    }
+
+    .head-email {
+        max-width: 85%;
+        margin-bottom: 20px;
+    }
+
+    .head-button {
+        width: 95%;
+        border: 2px solid #462be2;
+    }
+
+    .description {
+        height: auto;
+    }
+
+    .descr-text {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    .for-whom-pic1,
+    .for-whom-pic2,
+    .for-whom-pic3 {
+        width: 100%;
+        max-width: 371px;
+        padding-top: 75%;
+        height: 0;
     }
 }

@@ -331,9 +331,8 @@ h2 {
   left: -20.5%;
   display: block;
   background: url(../img/Group-81.png) no-repeat center / contain;
-  width: 100%;
-  max-width: 1042px;
-  padding-top: 0%;
+  width: 1042px;
+  height: 461px;
 }
 
 .function-content-pic3 {
@@ -787,6 +786,8 @@ h3 {
   background: url(../img/Group119.jpg) no-repeat center / contain;
   width: 1160px;
   height: 1034px;
+  padding-top: 43%;
+  margin-bottom: 10px;
 }
 
 /* FOOTER */

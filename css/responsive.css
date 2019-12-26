@@ -41,8 +41,7 @@
     .form-pic3 {
         width: 100%;
         max-width: 1160px;
-
-        padding-top: 43%;
+        height: 0;
     }
 
 }
@@ -234,6 +233,10 @@
     .left-side {
         margin-bottom: 20px;
     }
+
+    .for-whom {
+        padding-bottom: 0;
+    }
 }
 
 @media (max-width: 700px) {
@@ -344,4 +347,10 @@
     .cont-left-side {
         padding-right: 0;
     }
+
+    .foot-email,
+    .foot-phone {
+        margin-right: 0;
+    }
+
 }

@@ -37,7 +37,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 20px;
+  margin: 50px 20px;
   /* position: fixed; */
   top: 0;
   left: 0;
@@ -315,14 +315,6 @@ h2 {
   justify-content: space-between;
 }
 
-.function-content-pic-boss {
-  width: 100%;
-  /* Ширина области */
-  height: 461px;
-  /* Высота области */
-  margin: 0;
-}
-
 .function-content-pic {
   position: absolute;
   top: 0;
@@ -339,8 +331,9 @@ h2 {
   left: -20.5%;
   display: block;
   background: url(../img/Group-81.png) no-repeat center / contain;
-  width: 1042px;
-  height: 461px;
+  width: 100%;
+  max-width: 1042px;
+  padding-top: 0%;
 }
 
 .function-content-pic3 {
@@ -698,6 +691,7 @@ h3 {
   border-radius: 16px;
   background: #23d87d;
   color: #ffffff;
+  z-index: 99;
 }
 
 .textbox {
@@ -784,52 +778,20 @@ h3 {
   position: relative;
 }
 
-.form-pic1 {
-  position: absolute;
-  z-index: 1;
-  top: 26%;
-  left: 1%;
-  display: block;
-  background: url(../img/Group77.png) no-repeat center / contain;
-  width: 1096px;
-  height: 930px;
-}
-
-.form-pic2 {
-  position: absolute;
-  z-index: 2;
-  top: 102%;
-  left: 20%;
-  display: block;
-  background: url(../img/Group76.png) no-repeat center / contain;
-  width: 905px;
-  height: 488px;
-}
-
 .form-pic3 {
   position: absolute;
   z-index: 1;
-  top: 94%;
-  left: 52.5%;
-  display: block;
-  background: url(../img/man.png) no-repeat center / contain;
-  width: 560px;
-  height: 502px;
-}
-
-.form-pic4 {
-  position: absolute;
-  z-index: 1;
-  top: 87%;
+  top: 26%;
   left: 0;
   display: block;
-  background: url(../img/Girl.png) no-repeat center / contain;
-  width: 399px;
-  height: 552px;
+  background: url(../img/Group119.jpg) no-repeat center / contain;
+  width: 1160px;
+  height: 1034px;
 }
 
 /* FOOTER */
 .foot {
+  /* z-index: 10; */
   margin-top: 575px;
   border-top: 1px dashed #000000;
 }

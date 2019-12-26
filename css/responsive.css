@@ -37,6 +37,14 @@
         font-size: 15px;
         padding: 6.5% 0 7.4%;
     }
+
+    .form-pic3 {
+        width: 100%;
+        max-width: 1160px;
+
+        padding-top: 43%;
+    }
+
 }
 
 @media (max-width: 1300px) {
@@ -69,6 +77,31 @@
     .mob-app-pic {
         margin-right: 20px;
     }
+
+    .content-all {
+        margin: 10px 20px;
+    }
+
+    .function-content-pic,
+    .function-content-pic3 {
+        width: 100%;
+        max-width: 1042px;
+        padding-top: 0;
+        /* margin-right: -13%; */
+    }
+
+    .boof-side {
+        margin: 40px 20px;
+    }
+
+    .desc-pic {
+        width: 100%;
+    }
+
+    .head-nav {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 1100px) {
@@ -90,6 +123,17 @@
     .partners-container>h2 {
         margin-top: 60px;
         margin-bottom: 40px;
+    }
+
+    .function-content-pic,
+    .function-content-pic2,
+    .function-content-pic3 {
+        /* display: none; */
+        width: 50%;
+    }
+
+    .function-content-pic2 {
+        left: -12.5%;
     }
 
 }
@@ -146,8 +190,6 @@
         margin-right: 0;
     }
 
-    /* Test-Grid-Flex */
-
     .benefits-content {
         display: flex;
         width: 45%;
@@ -177,6 +219,26 @@
 
     .benefits-content br {
         display: none;
+    }
+
+    .function-content,
+    .function-content:last-child {
+        margin: 0;
+    }
+
+    .boof-side {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-side {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .form-foot {
+        width: 90%
     }
 }
 
@@ -209,6 +271,32 @@
 
     .benefits-content-second-line {
         margin-top: 50px;
+    }
+
+    .function-content-pic,
+    .function-content-pic2,
+    .function-content-pic3 {
+        display: none;
+    }
+
+    .function-content {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .function-content-text li:before {
+        left: 1%;
+    }
+
+    .function-content-text-right li:before {
+        left: 2%;
+    }
+
+    .right-side {
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        flex-basis: content;
     }
 }
 
@@ -251,5 +339,9 @@
         max-width: 371px;
         padding-top: 75%;
         height: 0;
+    }
+
+    .cont-left-side {
+        padding-right: 0;
     }
 }

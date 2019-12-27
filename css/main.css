@@ -26,7 +26,7 @@ ul {
   font-size: 14px;
 }
 
-.head-nav>.head-logo {
+.head-nav > .head-logo {
   cursor: default;
   font-family: "Samsung Sharp Sans", sans-serif;
   font-size: 32px;
@@ -37,8 +37,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 20px;
-  /* position: fixed; */
+  padding: 50px 20px;
+  position: fixed;
   top: 0;
   left: 0;
   width: 97%;
@@ -50,7 +50,7 @@ nav {
   max-width: 885px;
 }
 
-nav>ul {
+nav > ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,7 +125,7 @@ h1 {
 }
 
 .head-content {
-  padding: 110px 20px 70px 20px;
+  padding: 120px 20px 70px 20px;
   display: flex;
 }
 
@@ -133,7 +133,6 @@ h1 {
   display: block;
   background: url(../img/Asset.png) no-repeat center / contain;
   width: 860px;
-  /* height: 899px; */
   padding-top: 57%;
 }
 
@@ -636,7 +635,7 @@ h3 {
 }
 
 /* Section Partners */
-.partners-container>h2 {
+.partners-container > h2 {
   margin-top: 119px;
 }
 
@@ -677,7 +676,7 @@ h3 {
   margin: 84px 20px 245px 0;
 }
 
-.form-title>h2 {
+.form-title > h2 {
   margin-bottom: 63px;
 }
 
@@ -775,25 +774,13 @@ h3 {
 /* Section-Form-Picture */
 .form-on-demo {
   position: relative;
-}
-
-.form-pic3 {
-  position: absolute;
-  z-index: 1;
-  top: 26%;
-  left: 0;
-  display: block;
-  background: url(../img/Group119.jpg) no-repeat center / contain;
-  width: 1160px;
-  height: 1034px;
-  padding-top: 43%;
-  margin-bottom: 10px;
+  background: url(../img/Group119.jpg) no-repeat center bottom / contain;
+  padding-bottom: 30%;
 }
 
 /* FOOTER */
 .foot {
-  /* z-index: 10; */
-  margin-top: 575px;
+  margin-top: 100px;
   border-top: 1px dashed #000000;
 }
 
